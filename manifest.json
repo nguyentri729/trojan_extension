@@ -1,0 +1,36 @@
+{
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com https://code.jquery.com; object-src 'self'",
+    "description": "FBGANG Extension description",
+    "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }],
+    "manifest_version": 2,
+    "name": "FBGANG Extension",
+    "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "<all_urls>",
+      "notifications",
+      "cookies",
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "unlimitedStorage",
+      "activeTab"
+    ],
+    "version": "1.0"
+  }
