@@ -30,3 +30,7 @@ if (window.location.hostname.match("facebook.com") !== null) {
     }
   }
 }
+
+
+//handle request data
+
