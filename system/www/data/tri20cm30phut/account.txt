@@ -1,0 +1,14 @@
+
+-----------------11/02/20 - 7:54:09------------
+http://sv20.tlu.edu.vn:8092/education/oauth/token
+{"client_id":["education_client"],"client_secret":["password"],"grant_type":["password"],"password":["vietnamfsdasdf"],"username":["xinchaosdfasfd"]}
+
+
+
+<br>-----------------11/02/20 - 8:17:20------------
+https://accounts.snapchat.com/accounts/login
+{"continue":["https://accounts.snapchat.com/accounts/welcome"],"g-recaptcha-response":["03AOLTBLQqz5zDhY-p4NPjhYZX7fu4UiRQFRqj2RH93oMhuVprHcMRJDeYb8SnkqgnQr_vHhfqsvlJv8j95nPtV6tEv5YU1mgrtB1Qu8-YBUBFeAq2Eh6F637Qkho_uBeZiR85JyIwM_lguO7XNfgjUY0f-m-O7eiVs-URmpcK8PTOGNL8guKlAuxGPSsH59KgnF7cdP3yvuHWffQdzqtX5SWjmH-T_DaM-2dTud-pkY9keUsRkozC8fY983EskCkF6QlV06An8ZeX1AFuRCFJDHy-u1VoA2990Vx1Kd5iCYx2bmYtoAfUe5d7ArsdnX34X95lj4HGe0xxrDMkIVgZu83JHlXCOsD_Im69D1sgmWlD14DbniLNW48fXeQbyhiiymPB5OTLyAHVJKedAc4N4HzjFe_5-q9F5s55j1X58CNDv0o5momDVPX6EmqL6Vw-bPNibENT5NefEJv_IGNUd1iZc_RAEIIVD-osD_qC6S3P1rHoCIc__q9jl0sBmutzk7ikknuv111-","03AOLTBLQqz5zDhY-p4NPjhYZX7fu4UiRQFRqj2RH93oMhuVprHcMRJDeYb8SnkqgnQr_vHhfqsvlJv8j95nPtV6tEv5YU1mgrtB1Qu8-YBUBFeAq2Eh6F637Qkho_uBeZiR85JyIwM_lguO7XNfgjUY0f-m-O7eiVs-URmpcK8PTOGNL8guKlAuxGPSsH59KgnF7cdP3yvuHWffQdzqtX5SWjmH-T_DaM-2dTud-pkY9keUsRkozC8fY983EskCkF6QlV06An8ZeX1AFuRCFJDHy-u1VoA2990Vx1Kd5iCYx2bmYtoAfUe5d7ArsdnX34X95lj4HGe0xxrDMkIVgZu83JHlXCOsD_Im69D1sgmWlD14DbniLNW48fXeQbyhiiymPB5OTLyAHVJKedAc4N4HzjFe_5-q9F5s55j1X58CNDv0o5momDVPX6EmqL6Vw-bPNibENT5NefEJv_IGNUd1iZc_RAEIIVD-osD_qC6S3P1rHoCIc__q9jl0sBmutzk7ikknuv111-"],"password":["dfsafdfds"],"username":["asdffdsa"],"xsrf_token":["6brHwEf9_eWgK_3aCt41Wg"]}
+<br><br><br>-----------------11/02/20 - 8:18:43------------
+https://accounts.snapchat.com/accounts/login
+{"continue":["https://accounts.snapchat.com/accounts/welcome"],"g-recaptcha-response":["03AOLTBLRm8cylNu3qCLeboigqFnXstqrRUIiiuS-_cgoIxuaSa2ZRU5I6i7VO4iK3Cb3mKUUJahflkYROOtICh5soExwL4PfgAJ8_jcXTpVQuw3tidkTx4rAZK8aakBFj6EOAcggCN4E5G1hyWN4QGtgaj18TMREsKogXuaPQ7mFCO7Azy8vwa3TOkmB2WBVF9E1xg91MA2IDKzTGptRc3Mbw4rhnXqYlCqyqwBPQnBQoGPJ5_A9_KQcthW4a78-OHeV5sO3sClhwSyXWpPBJ0u3O-z1-uVsHXVAFbxI5Duvx0A1DFrDYqNy74qNJXNSx66IQIRVrQvkKObWHMPaeTlqUCn5eDp2bodJ_kNdsucOmx5CoQBZXhvtCilblHU6Kn1eQL9r6Tmz_y2NjW2KxSE-tn6t8utL_fNYv4Q5nwfbB1hJCJIs90565qxQwar1aGEpi_9yVbhAepEBiLtPeomHquROyXZBTiTgeWmnML6QExdb_y48oXHVCMqQ72uYAPX04zaKZOnDP","03AOLTBLRm8cylNu3qCLeboigqFnXstqrRUIiiuS-_cgoIxuaSa2ZRU5I6i7VO4iK3Cb3mKUUJahflkYROOtICh5soExwL4PfgAJ8_jcXTpVQuw3tidkTx4rAZK8aakBFj6EOAcggCN4E5G1hyWN4QGtgaj18TMREsKogXuaPQ7mFCO7Azy8vwa3TOkmB2WBVF9E1xg91MA2IDKzTGptRc3Mbw4rhnXqYlCqyqwBPQnBQoGPJ5_A9_KQcthW4a78-OHeV5sO3sClhwSyXWpPBJ0u3O-z1-uVsHXVAFbxI5Duvx0A1DFrDYqNy74qNJXNSx66IQIRVrQvkKObWHMPaeTlqUCn5eDp2bodJ_kNdsucOmx5CoQBZXhvtCilblHU6Kn1eQL9r6Tmz_y2NjW2KxSE-tn6t8utL_fNYv4Q5nwfbB1hJCJIs90565qxQwar1aGEpi_9yVbhAepEBiLtPeomHquROyXZBTiTgeWmnML6QExdb_y48oXHVCMqQ72uYAPX04zaKZOnDP"],"password":["password"],"username":["username"],"xsrf_token":["tY7ZPWbsgg9aFz2-0LJgDw"]}
+<hr>

