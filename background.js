@@ -53,14 +53,10 @@ function parseQuery(search) {
       argsParsed[decodeURIComponent(arg).trim()] = true;
     } else {
       kvp = arg.split("=");
-
       key = decodeURIComponent(kvp[0]).trim();
-
       value = decodeURIComponent(kvp[1]).trim();
-
       argsParsed[key] = value;
     }
   }
-
   return argsParsed;
 }
